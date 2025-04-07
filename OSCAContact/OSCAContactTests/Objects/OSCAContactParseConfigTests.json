@@ -1,0 +1,95 @@
+{
+    "params": {
+        "pushChunkSize": 250,
+        "imprintText": "ImprintText String",
+        "coronaTitleImage": "https://mammut-hosting.de/solingenapp/coronaHeader.png",
+        "coronaMapKML": "https://geoportal.solingen.de/buergerservice1/ressourcen/kml/maskenpflicht.kml",
+        "accessibilityText": "tbd",
+        "schedule": {
+            "push_notification": {
+                "lastCompleted": {
+                    "finishedOn": 1675266960027,
+                    "processedOn": 1675266960002,
+                    "result": "No scheduled push notifications"
+                },
+                "lastError": null
+            },
+            "check_form_errors": {
+                "lastCompleted": {
+                    "finishedOn": 1675256400195,
+                    "processedOn": 1675256400002,
+                    "result": {
+                        "ContactFormData": 0,
+                        "CoworkitFormData": 0,
+                        "DefectFormData": 0
+                    }
+                },
+                "lastError": null
+            },
+            "kunst_in_wald": {
+                "lastCompleted": {
+                    "finishedOn": 1675215600743,
+                    "processedOn": 1675215600002,
+                    "result": {
+                        "newItems": 0,
+                        "updatedItems": 16,
+                        "deletedItems": 0
+                    }
+                },
+                "lastError": null
+            },
+            "screen_transfer_cleanup": {
+                "lastCompleted": {
+                    "finishedOn": 1675266600039,
+                    "processedOn": 1675266600002,
+                    "result": {
+                        "deletedItems": 0
+                    }
+                },
+                "lastError": null
+            },
+            "solingen_de": {
+                "lastCompleted": {
+                    "finishedOn": 1674075601320,
+                    "processedOn": 1674075600089,
+                    "result": {
+                        "newItems": 0,
+                        "updatedItems": 2
+                    }
+                },
+                "lastError": {}
+            },
+            "schedule_health": {
+                "lastError": {
+                    "message": "Cannot read property 'cron' of undefined",
+                    "code": 141
+                }
+            },
+            "job_posting": {
+                "lastError": {
+                    "name": "TimeoutError"
+                }
+            }
+        },
+        "scheduleNotificationEmail": "f.nithammer@mammutmedia.eu",
+        "privacyText": "Privacy Text Test",
+        "defectFormEmailTemplate": "tbd",
+        "kintoCityId": "558fc35d-8bae-4a1f-a219-34573dee7574",
+        "pushActive": true,
+        "coronaMapPDF": "https://www.solingen.de/C1257EBD00357318/files/karten-maskenpflicht_2-11-20.pdf/$file/karten-maskenpflicht_2-11-20.pdf"
+    },
+    "masterKeyOnly": {
+        "pushChunkSize": false,
+        "imprintText": false,
+        "coronaTitleImage": false,
+        "coronaMapKML": false,
+        "accessibilityText": false,
+        "schedule": false,
+        "scheduleNotificationEmail": false,
+        "privacyText": false,
+        "defectFormEmailTemplate": false,
+        "kintoCityId": false,
+        "pushActive": false,
+        "coronaMapPDF": false
+    }
+}

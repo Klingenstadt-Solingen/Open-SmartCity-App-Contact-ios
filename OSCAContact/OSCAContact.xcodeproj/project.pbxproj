@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1100434D27AC1EFF00E5EBBD /* OSCAUploadRequestResource+ContactFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100434C27AC1EFF00E5EBBD /* OSCAUploadRequestResource+ContactFormData.swift */; };
+		113785B12861DEDA00007561 /* OSCAContactDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113785B02861DEDA00007561 /* OSCAContactDIContainer.swift */; };
+		113785C02861E1D200007561 /* OSCAContactError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113785BF2861E1D200007561 /* OSCAContactError.swift */; };
+		1173D215287D8E600059778C /* Notification+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173D214287D8E600059778C /* Notification+Name.swift */; };
+		1173D249287DCA2C0059778C /* DeeplinkURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173D248287DCA2C0059778C /* DeeplinkURL.swift */; };
+		1173D24C287DCF620059778C /* DeeplinkURLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173D24B287DCF620059778C /* DeeplinkURLTests.swift */; };
+		1173D250287DE9CE0059778C /* OSCAContact+DeeplinkURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173D24F287DE9CE0059778C /* OSCAContact+DeeplinkURL.swift */; };
+		1182882F297ADA91009FEEEA /* OSCAContactFormContactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1182882E297ADA91009FEEEA /* OSCAContactFormContactTests.swift */; };
+		11828831297ADFFB009FEEEA /* OSCAContactFormContactTests.json in Resources */ = {isa = PBXBuildFile; fileRef = 11828830297ADFFB009FEEEA /* OSCAContactFormContactTests.json */; };
+		118837D927A06A9300306875 /* OSCAContactFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118837D027A06A9300306875 /* OSCAContactFormData.swift */; };
+		118837DA27A06A9300306875 /* OSCAContactFormContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118837D127A06A9300306875 /* OSCAContactFormContact.swift */; };
+		118837DC27A06A9300306875 /* OSCAContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118837D527A06A9300306875 /* OSCAContact.swift */; };
+		118837DD27A06A9300306875 /* OSCAClassRequestResource+ContactFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118837D727A06A9300306875 /* OSCAClassRequestResource+ContactFormData.swift */; };
+		118837DE27A06A9300306875 /* OSCAClassRequestResource+ContactFormContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118837D827A06A9300306875 /* OSCAClassRequestResource+ContactFormContact.swift */; };
+		118838F027A06DC300306875 /* OSCAEssentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118838EF27A06DC300306875 /* OSCAEssentials.framework */; };
+		118838F127A06DC300306875 /* OSCAEssentials.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 118838EF27A06DC300306875 /* OSCAEssentials.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		118838F727A06DDF00306875 /* OSCANetworkService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118838F627A06DDF00306875 /* OSCANetworkService.framework */; };
+		118838F827A06DDF00306875 /* OSCANetworkService.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 118838F627A06DDF00306875 /* OSCANetworkService.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		118CFD5327A05E47002AEDBE /* OSCAContact.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118CFD4A27A05E47002AEDBE /* OSCAContact.framework */; };
+		118CFD5927A05E47002AEDBE /* OSCAContact.h in Headers */ = {isa = PBXBuildFile; fileRef = 118CFD4D27A05E47002AEDBE /* OSCAContact.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		118DC36828617F5000365384 /* OSCAContactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118837E127A06AD600306875 /* OSCAContactTests.swift */; };
+		11A5FCE4287C33A60066ECFE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11A5FCE2287C33A60066ECFE /* Localizable.strings */; };
+		11E0690B298BA78400F52365 /* OSCAContactParseConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E0690A298BA78400F52365 /* OSCAContactParseConfigTests.swift */; };
+		11E0690D298BA7E900F52365 /* OSCAContactParseConfigTests.json in Resources */ = {isa = PBXBuildFile; fileRef = 11E0690C298BA7E900F52365 /* OSCAContactParseConfigTests.json */; };
+		11E8081F287304CC008BB97A /* OSCATestCaseExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E8081E287304CC008BB97A /* OSCATestCaseExtension.framework */; };
+		F718C20728B8CA82003879BF /* OSCAContactParseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F718C20628B8CA82003879BF /* OSCAContactParseConfig.swift */; };
+		F718C20928B8CACC003879BF /* OSCAConfigRequestResource+ContactParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = F718C20828B8CACC003879BF /* OSCAConfigRequestResource+ContactParams.swift */; };
+		F7998FB328880BAB0063D547 /* API_Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7998FB128880BAB0063D547 /* API_Release.plist */; };
+		F7998FB428880BAB0063D547 /* API_Develop.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7998FB228880BAB0063D547 /* API_Develop.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		118CFD5427A05E47002AEDBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 118CFD4127A05E47002AEDBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 118CFD4927A05E47002AEDBE;
+			remoteInfo = OSCAContact;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		118838F227A06DC300306875 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				118838F127A06DC300306875 /* OSCAEssentials.framework in Embed Frameworks */,
+				118838F827A06DDF00306875 /* OSCANetworkService.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1100434C27AC1EFF00E5EBBD /* OSCAUploadRequestResource+ContactFormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OSCAUploadRequestResource+ContactFormData.swift"; sourceTree = "<group>"; };
+		111FBAE827A3F68F006BC3F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		113785B02861DEDA00007561 /* OSCAContactDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAContactDIContainer.swift; sourceTree = "<group>"; };
+		113785BF2861E1D200007561 /* OSCAContactError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAContactError.swift; sourceTree = "<group>"; };
+		1173D214287D8E600059778C /* Notification+Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Name.swift"; sourceTree = "<group>"; };
+		1173D248287DCA2C0059778C /* DeeplinkURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkURL.swift; sourceTree = "<group>"; };
+		1173D24B287DCF620059778C /* DeeplinkURLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkURLTests.swift; sourceTree = "<group>"; };
+		1173D24F287DE9CE0059778C /* OSCAContact+DeeplinkURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OSCAContact+DeeplinkURL.swift"; sourceTree = "<group>"; };
+		1182882E297ADA91009FEEEA /* OSCAContactFormContactTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAContactFormContactTests.swift; sourceTree = "<group>"; };
+		11828830297ADFFB009FEEEA /* OSCAContactFormContactTests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = OSCAContactFormContactTests.json; sourceTree = "<group>"; };
+		118837D027A06A9300306875 /* OSCAContactFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCAContactFormData.swift; sourceTree = "<group>"; };
+		118837D127A06A9300306875 /* OSCAContactFormContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCAContactFormContact.swift; sourceTree = "<group>"; };
+		118837D427A06A9300306875 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		118837D527A06A9300306875 /* OSCAContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCAContact.swift; sourceTree = "<group>"; };
+		118837D727A06A9300306875 /* OSCAClassRequestResource+ContactFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OSCAClassRequestResource+ContactFormData.swift"; sourceTree = "<group>"; };
+		118837D827A06A9300306875 /* OSCAClassRequestResource+ContactFormContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OSCAClassRequestResource+ContactFormContact.swift"; sourceTree = "<group>"; };
+		118837E127A06AD600306875 /* OSCAContactTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCAContactTests.swift; sourceTree = "<group>"; };
+		118838EF27A06DC300306875 /* OSCAEssentials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OSCAEssentials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		118838F627A06DDF00306875 /* OSCANetworkService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OSCANetworkService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		118CFD4A27A05E47002AEDBE /* OSCAContact.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OSCAContact.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		118CFD4D27A05E47002AEDBE /* OSCAContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSCAContact.h; sourceTree = "<group>"; };
+		118CFD5227A05E47002AEDBE /* OSCAContactTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSCAContactTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		118DC38E286185D800365384 /* libOSCATestCaseExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libOSCATestCaseExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		118DC390286188F100365384 /* libOSCATestCaseExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libOSCATestCaseExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A5FCE3287C33A60066ECFE /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		11D0E095287D42270094C026 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Production.xcconfig; path = ../../../../../SupportingFiles/Production.xcconfig; sourceTree = "<group>"; };
+		11D0E096287D42270094C026 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Development.xcconfig; path = ../../../../../SupportingFiles/Development.xcconfig; sourceTree = "<group>"; };
+		11E0690A298BA78400F52365 /* OSCAContactParseConfigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAContactParseConfigTests.swift; sourceTree = "<group>"; };
+		11E0690C298BA7E900F52365 /* OSCAContactParseConfigTests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = OSCAContactParseConfigTests.json; sourceTree = "<group>"; };
+		11E8081E287304CC008BB97A /* OSCATestCaseExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OSCATestCaseExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F33FC527A3C45300F51521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F718C20628B8CA82003879BF /* OSCAContactParseConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAContactParseConfig.swift; sourceTree = "<group>"; };
+		F718C20828B8CACC003879BF /* OSCAConfigRequestResource+ContactParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OSCAConfigRequestResource+ContactParams.swift"; sourceTree = "<group>"; };
+		F7998FB128880BAB0063D547 /* API_Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = API_Release.plist; path = ../../../../../SupportingFiles/API_Release.plist; sourceTree = "<group>"; };
+		F7998FB228880BAB0063D547 /* API_Develop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = API_Develop.plist; path = ../../../../../SupportingFiles/API_Develop.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		118CFD4727A05E47002AEDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118838F027A06DC300306875 /* OSCAEssentials.framework in Frameworks */,
+				118838F727A06DDF00306875 /* OSCANetworkService.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118CFD4F27A05E47002AEDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E8081F287304CC008BB97A /* OSCATestCaseExtension.framework in Frameworks */,
+				118CFD5327A05E47002AEDBE /* OSCAContact.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		113785BA2861E14E00007561 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				113785BF2861E1D200007561 /* OSCAContactError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		1173D207287D8D5F0059778C /* Deeplink */ = {
+			isa = PBXGroup;
+			children = (
+				1173D214287D8E600059778C /* Notification+Name.swift */,
+				1173D248287DCA2C0059778C /* DeeplinkURL.swift */,
+				1173D24F287DE9CE0059778C /* OSCAContact+DeeplinkURL.swift */,
+			);
+			path = Deeplink;
+			sourceTree = "<group>";
+		};
+		1173D24A287DCF3C0059778C /* Deeplink */ = {
+			isa = PBXGroup;
+			children = (
+				1173D24B287DCF620059778C /* DeeplinkURLTests.swift */,
+			);
+			path = Deeplink;
+			sourceTree = "<group>";
+		};
+		118119DA285A0D1100253965 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = scripts;
+			sourceTree = "<group>";
+		};
+		11828825297AD7CF009FEEEA /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				11828830297ADFFB009FEEEA /* OSCAContactFormContactTests.json */,
+				1182882E297ADA91009FEEEA /* OSCAContactFormContactTests.swift */,
+				11E0690C298BA7E900F52365 /* OSCAContactParseConfigTests.json */,
+				11E0690A298BA78400F52365 /* OSCAContactParseConfigTests.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		118837CF27A06A9300306875 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				118837D027A06A9300306875 /* OSCAContactFormData.swift */,
+				118837D127A06A9300306875 /* OSCAContactFormContact.swift */,
+				F718C20628B8CA82003879BF /* OSCAContactParseConfig.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		118837D227A06A9300306875 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				118837D327A06A9300306875 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		118837D627A06A9300306875 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				118837D727A06A9300306875 /* OSCAClassRequestResource+ContactFormData.swift */,
+				118837D827A06A9300306875 /* OSCAClassRequestResource+ContactFormContact.swift */,
+				1100434C27AC1EFF00E5EBBD /* OSCAUploadRequestResource+ContactFormData.swift */,
+				F718C20828B8CACC003879BF /* OSCAConfigRequestResource+ContactParams.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		118838EE27A06DC300306875 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11E8081E287304CC008BB97A /* OSCATestCaseExtension.framework */,
+				118DC390286188F100365384 /* libOSCATestCaseExtension.a */,
+				118DC38E286185D800365384 /* libOSCATestCaseExtension.a */,
+				118838F627A06DDF00306875 /* OSCANetworkService.framework */,
+				118838EF27A06DC300306875 /* OSCAEssentials.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		118CFD4027A05E47002AEDBE = {
+			isa = PBXGroup;
+			children = (
+				118119DA285A0D1100253965 /* scripts */,
+				118CFD4C27A05E47002AEDBE /* OSCAContact */,
+				118CFD5627A05E47002AEDBE /* OSCAContactTests */,
+				118CFD4B27A05E47002AEDBE /* Products */,
+				118838EE27A06DC300306875 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		118CFD4B27A05E47002AEDBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				118CFD4A27A05E47002AEDBE /* OSCAContact.framework */,
+				118CFD5227A05E47002AEDBE /* OSCAContactTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		118CFD4C27A05E47002AEDBE /* OSCAContact */ = {
+			isa = PBXGroup;
+			children = (
+				1173D207287D8D5F0059778C /* Deeplink */,
+				11F33FC527A3C45300F51521 /* Info.plist */,
+				118837D627A06A9300306875 /* Extensions */,
+				118837CF27A06A9300306875 /* Objects */,
+				113785BA2861E14E00007561 /* Error */,
+				113785B02861DEDA00007561 /* OSCAContactDIContainer.swift */,
+				118837D527A06A9300306875 /* OSCAContact.swift */,
+				118837D227A06A9300306875 /* Resources */,
+				11D0E07A287D3F950094C026 /* SupportingFiles */,
+				118CFD4D27A05E47002AEDBE /* OSCAContact.h */,
+			);
+			path = OSCAContact;
+			sourceTree = "<group>";
+		};
+		118CFD5627A05E47002AEDBE /* OSCAContactTests */ = {
+			isa = PBXGroup;
+			children = (
+				11828825297AD7CF009FEEEA /* Objects */,
+				1173D24A287DCF3C0059778C /* Deeplink */,
+				111FBAE827A3F68F006BC3F8 /* Info.plist */,
+				118837E127A06AD600306875 /* OSCAContactTests.swift */,
+				11A5FCE1287C33A60066ECFE /* Resources */,
+			);
+			path = OSCAContactTests;
+			sourceTree = "<group>";
+		};
+		11A5FCE1287C33A60066ECFE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7998FB228880BAB0063D547 /* API_Develop.plist */,
+				F7998FB128880BAB0063D547 /* API_Release.plist */,
+				11A5FCE2287C33A60066ECFE /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		11D0E07A287D3F950094C026 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				11D0E096287D42270094C026 /* Development.xcconfig */,
+				11D0E095287D42270094C026 /* Production.xcconfig */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		118CFD4527A05E47002AEDBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118CFD5927A05E47002AEDBE /* OSCAContact.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		118CFD4927A05E47002AEDBE /* OSCAContact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118CFD5C27A05E47002AEDBE /* Build configuration list for PBXNativeTarget "OSCAContact" */;
+			buildPhases = (
+				118CFD4527A05E47002AEDBE /* Headers */,
+				118CFD4627A05E47002AEDBE /* Sources */,
+				118CFD4727A05E47002AEDBE /* Frameworks */,
+				118CFD4827A05E47002AEDBE /* Resources */,
+				118838F227A06DC300306875 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSCAContact;
+			packageProductDependencies = (
+			);
+			productName = OSCAContact;
+			productReference = 118CFD4A27A05E47002AEDBE /* OSCAContact.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		118CFD5127A05E47002AEDBE /* OSCAContactTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118CFD5F27A05E47002AEDBE /* Build configuration list for PBXNativeTarget "OSCAContactTests" */;
+			buildPhases = (
+				118CFD4E27A05E47002AEDBE /* Sources */,
+				118CFD4F27A05E47002AEDBE /* Frameworks */,
+				118CFD5027A05E47002AEDBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				118CFD5527A05E47002AEDBE /* PBXTargetDependency */,
+			);
+			name = OSCAContactTests;
+			packageProductDependencies = (
+			);
+			productName = OSCAContactTests;
+			productReference = 118CFD5227A05E47002AEDBE /* OSCAContactTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		118CFD4127A05E47002AEDBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					118CFD4927A05E47002AEDBE = {
+						CreatedOnToolsVersion = 13.2;
+						LastSwiftMigration = 1320;
+					};
+					118CFD5127A05E47002AEDBE = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = 118CFD4427A05E47002AEDBE /* Build configuration list for PBXProject "OSCAContact" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+				Base,
+			);
+			mainGroup = 118CFD4027A05E47002AEDBE;
+			packageReferences = (
+			);
+			productRefGroup = 118CFD4B27A05E47002AEDBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				118CFD4927A05E47002AEDBE /* OSCAContact */,
+				118CFD5127A05E47002AEDBE /* OSCAContactTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		118CFD4827A05E47002AEDBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A5FCE4287C33A60066ECFE /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118CFD5027A05E47002AEDBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E0690D298BA7E900F52365 /* OSCAContactParseConfigTests.json in Resources */,
+				11828831297ADFFB009FEEEA /* OSCAContactFormContactTests.json in Resources */,
+				F7998FB328880BAB0063D547 /* API_Release.plist in Resources */,
+				F7998FB428880BAB0063D547 /* API_Develop.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		118CFD4627A05E47002AEDBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118837D927A06A9300306875 /* OSCAContactFormData.swift in Sources */,
+				1100434D27AC1EFF00E5EBBD /* OSCAUploadRequestResource+ContactFormData.swift in Sources */,
+				F718C20928B8CACC003879BF /* OSCAConfigRequestResource+ContactParams.swift in Sources */,
+				113785B12861DEDA00007561 /* OSCAContactDIContainer.swift in Sources */,
+				118837DC27A06A9300306875 /* OSCAContact.swift in Sources */,
+				118837DE27A06A9300306875 /* OSCAClassRequestResource+ContactFormContact.swift in Sources */,
+				1173D250287DE9CE0059778C /* OSCAContact+DeeplinkURL.swift in Sources */,
+				1173D249287DCA2C0059778C /* DeeplinkURL.swift in Sources */,
+				113785C02861E1D200007561 /* OSCAContactError.swift in Sources */,
+				F718C20728B8CA82003879BF /* OSCAContactParseConfig.swift in Sources */,
+				118837DA27A06A9300306875 /* OSCAContactFormContact.swift in Sources */,
+				118837DD27A06A9300306875 /* OSCAClassRequestResource+ContactFormData.swift in Sources */,
+				1173D215287D8E600059778C /* Notification+Name.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118CFD4E27A05E47002AEDBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E0690B298BA78400F52365 /* OSCAContactParseConfigTests.swift in Sources */,
+				118DC36828617F5000365384 /* OSCAContactTests.swift in Sources */,
+				1173D24C287DCF620059778C /* DeeplinkURLTests.swift in Sources */,
+				1182882F297ADA91009FEEEA /* OSCAContactFormContactTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		118CFD5527A05E47002AEDBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 118CFD4927A05E47002AEDBE /* OSCAContact */;
+			targetProxy = 118CFD5427A05E47002AEDBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		118837D327A06A9300306875 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				118837D427A06A9300306875 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		11A5FCE2287C33A60066ECFE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A5FCE3287C33A60066ECFE /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		118CFD5A27A05E47002AEDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D0E096287D42270094C026 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		118CFD5B27A05E47002AEDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D0E095287D42270094C026 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		118CFD5D27A05E47002AEDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D0E096287D42270094C026 /* Development.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RSJ53UGKPZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OSCAContact/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = de.osca.contact;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		118CFD5E27A05E47002AEDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D0E095287D42270094C026 /* Production.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RSJ53UGKPZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OSCAContact/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = de.osca.contact;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		118CFD6027A05E47002AEDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D0E096287D42270094C026 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEVELOPMENT_TEAM = RSJ53UGKPZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OSCAContactTests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = de.solingen.contact.OSCAContactTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		118CFD6127A05E47002AEDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D0E095287D42270094C026 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEVELOPMENT_TEAM = RSJ53UGKPZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OSCAContactTests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = de.solingen.contact.OSCAContactTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		118CFD4427A05E47002AEDBE /* Build configuration list for PBXProject "OSCAContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118CFD5A27A05E47002AEDBE /* Debug */,
+				118CFD5B27A05E47002AEDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		118CFD5C27A05E47002AEDBE /* Build configuration list for PBXNativeTarget "OSCAContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118CFD5D27A05E47002AEDBE /* Debug */,
+				118CFD5E27A05E47002AEDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		118CFD5F27A05E47002AEDBE /* Build configuration list for PBXNativeTarget "OSCAContactTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118CFD6027A05E47002AEDBE /* Debug */,
+				118CFD6127A05E47002AEDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 118CFD4127A05E47002AEDBE /* Project object */;
+}

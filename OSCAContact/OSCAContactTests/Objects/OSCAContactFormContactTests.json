@@ -1,0 +1,51 @@
+{
+    "results": [
+        {
+            "objectId": "Gt2X3gD48AbJQX2x",
+            "category": "Fragen/Anregungen zur App",
+            "email": "f.nithammer@mammutmedia.eu",
+            "emailSubject": "Neues Feedback zur App",
+            "title": "Fehler in der App",
+            "position": 0,
+            "createdAt": "2022-09-30T20:14:41.565Z",
+            "updatedAt": "2022-10-01T11:05:19.079Z"
+        },
+        {
+            "objectId": "wUcfQyYi6DoZ6a0U",
+            "email": "buergerbuero@solingen.de",
+            "emailSubject": "Neue Anfrage",
+            "title": "Kontakt zum B\u00fcrgerb\u00fcro",
+            "position": 1,
+            "createdAt": "2022-09-30T20:14:43.155Z",
+            "updatedAt": "2022-09-30T20:14:43.155Z"
+        },
+        {
+            "objectId": "0o7CEU98iFRfJOST",
+            "category": "Beschwerde",
+            "email": "servicefuersolingen@solingen.de",
+            "emailSubject": "Neue Beschwerde",
+            "title": "Beschwerde",
+            "position": 2,
+            "createdAt": "2022-09-30T20:14:43.157Z",
+            "updatedAt": "2022-09-30T20:14:43.157Z"
+        },
+        {
+            "objectId": "4bnFuFByBjTTI4V3",
+            "email": "ob@solingen.de",
+            "emailSubject": "Neue Anfrage",
+            "title": "Kontakt zum Oberb\u00fcrgermeister",
+            "position": 3,
+            "createdAt": "2022-09-30T20:14:43.168Z",
+            "updatedAt": "2022-09-30T20:14:43.168Z"
+        },
+        {
+            "objectId": "0AlB3OOlz3hFwOX7",
+            "email": "solingen.digital@solingen.de",
+            "emailSubject": "Neues Feedback zur App",
+            "title": "Anregungen und Ideen zur App",
+            "position": 4,
+            "createdAt": "2022-09-30T20:14:43.177Z",
+            "updatedAt": "2022-09-30T20:14:43.177Z"
+        }
+    ]
+}
